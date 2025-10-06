@@ -1,0 +1,273 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+   <ul class="nav-links">
+            <li><a href="nav-links">
+            <li><a href="traditionalclothing.html">Traditional Clothing</a></li>
+            <li><a href="music&dance.html">Music & dance</a></li>
+            <li><a href="crafts&art.html">Crafts & Art</a></li>
+            <li><a href="contact&feedback.html">Contact & Feedback </a></li>
+             <li><a href="index.html">Home</a></li>
+           </ul>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Basotho Crafts & Art — Page 4</title>
+  <meta name="description" content="Showcase of Basotho crafts: woven baskets, pottery, beadwork and more. Responsive single-file page with advanced CSS." />
+<style>
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color:#37335b;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color:rgb(79, 199, 195);
+    font-weight: 500;
+}
+.nav-links li a:hover {
+    color:#c5b6d3;
+}
+
+    :root{
+      --bg:#f6fbff;
+      --card:#ffffff;
+      --accent:#0b6fb8; /* Basotho-blue inspired */
+      --muted:#6b7280;
+      --glass: rgba(255,255,255,0.7);
+      --radius:14px;
+      --gap:1.25rem;
+      --max-width:1200px;
+      --shadow: 0 8px 30px rgba(11,111,184,0.08);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background: linear-gradient(180deg,var(--bg),#F5F5DC 60%);
+  color:#0f1724;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.45;
+  padding:2rem 1rem;
+  display:flex;justify-content:center;
+}
+
+.page{
+  width:100%;
+  max-width:var(--max-width);
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.85));
+  border-radius:20px;
+  padding:2rem;
+  box-shadow: var(--shadow);
+  border:1px solid #FAEBD7;
+}
+
+header{
+  display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem;
+}
+.logo{
+  width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#F0F8FF);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.25rem;box-shadow:0 6px 18px rgba(11,111,184,0.12);
+}
+
+h1{font-size:1.5rem;margin:0}
+p.lead{margin:0;color:var(--muted)}
+
+.intro{display:flex;gap:1.5rem;align-items:center;margin:1rem 0 2rem}
+.intro .cta{margin-left:auto}
+
+.grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:var(--gap);
+}
+
+/* Responsive: 2 columns at >=720px, 3 at >=1024px */
+@media(min-width:720px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(min-width:1024px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+}
+
+article.card{
+  background-color:#FFFAFA;
+  border-radius:var(--radius);
+  overflow:hidden;
+  display:flex;flex-direction:column;
+  min-height:320px;
+  border:1px solid #FFFAFA;
+  transition:transform .28s ease,box-shadow .28s ease;
+}
+article.card:hover{transform:translateY(-8px);box-shadow:0 18px 40px #F5FFFA}
+
+.card .media{
+  aspect-ratio:16/10;object-fit:cover;width:100%;display:block;
+  background:linear-gradient(180deg,##FFE4B5,#FDF5E6);
+}
+
+.card .content{padding:1rem 1rem 1.25rem;display:flex;flex-direction:column;gap:.6rem}
+.kicker{font-size:.8rem;color:var(--accent);font-weight:700;letter-spacing:.04em}
+.title{font-size:1.05rem;margin:0}
+.desc{font-size:.95rem;color:var(--muted);margin:0}
+
+.meta{display:flex;gap:.5rem;align-items:center;margin-top:auto}
+.pill{padding:.35rem .6rem;border-radius:999px;border:1px dashed rgba(11,111,184,0.08);font-size:.8rem;color:var(--accent)}
+
+footer{display:flex;justify-content:space-between;align-items:center;padding-top:1.25rem;border-top:1px dashed #FFE4E1;margin-top:1.5rem}
+
+/* Advanced decorative border and side panel */
+.side-panel{display:none;padding:1rem;border-left:1px solid rgba(11,111,184,0.04)}
+@media(min-width:1024px){
+  .page{display:grid;grid-template-columns:1fr 300px;gap:1.5rem}
+  .side-panel{display:block}
+}
+
+.resources{background:linear-gradient(180deg,#ffffff, rgba(255,255,255,0.96));padding:1rem;border-radius:12px;border:1px solid rgba(11,111,184,0.06)}
+.resources h3{margin:.2rem 0 .6rem}
+.resources a{display:block;color:var(--accent);text-decoration:none;margin:.35rem 0}
+
+/* Accessibility helpers */
+a:focus{outline:3px solid rgba(11,111,184,0.14);outline-offset:3px}
+
+/* Small utility */
+.tags{display:flex;flex-wrap:wrap;gap:.5rem}
+
+  </style>
+</head>
+<body>
+  <main class="page" role="main">
+    <section aria-labelledby="page-title">
+      <header>
+         <nav class="navbar">
+    </nav>
+        <div class="logo" aria-hidden>BB</div>
+        <div>
+          <h1 id="page-title">Crafts & Art — Basotho Traditions</h1>
+          <p class="lead">A curated showcase of Basotho crafts: woven baskets, pottery, beadwork, leatherwork and more. Click any card for quick resources.</p>
+        </div>
+      </header><div class="intro">
+    <p style="max-width:58ch">This page highlights techniques, cultural context and contemporary makers who keep Basotho craft traditions alive. Images are for illustrative purposes; replace with your own photos for publishing.</p>
+    <div class="cta">
+      <a class="pill" href="#resources">Further reading & links</a>
+    </div>
+  </div>
+
+  <section class="grid" aria-label="Craft gallery">
+
+    <!-- Card 1: Woven Baskets -->
+    <article class="card">
+      <img class="media" src="mokorotlo.jpg" alt="Close-up of woven basket with traditional patterns">
+      <div class="content">
+        <div class="kicker">Grass hats</div>
+        <h2 class="title">Mokorotlo</h2>
+        <p class="desc">Traditional Basotho hats are worn during sunny days and events.They made with grass by Weaving in a cone and then coiling the grass around, to resemble a pointed dome.</p>
+        <div class="meta">
+          <span class="pill">Technique: Coiling & shaping</span>
+          <div class="tags" aria-hidden>
+            <small>Handmade • Durable</small>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2: Beadwork -->
+    <article class="card">
+      <img class="media" src="beadwork.jpg" alt="Colorful beadwork on traditional cloth">
+      <div class="content">
+        <div class="kicker">Beadwork</div>
+        <h2 class="title">Beadwork & Adornment</h2>
+        <p class="desc">Intricate beadwork decorates clothing, women's adornments and ceremonial items. Patterns and colors can indicate status, age group or family lineage.</p>
+        <div class="meta">
+          <span class="pill">Materials: Glass beads, thread</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3: Pottery -->
+    <article class="card">
+      <img class="media" src="pottery.jpg" alt="Handmade clay pottery on a wooden table">
+      <div class="content">
+        <div class="kicker">Pottery</div>
+        <h2 class="title">Handbuilt Pottery</h2>
+        <p class="desc">Potters shape clay using coil and slab techniques. Functional wares — cooking pots and storage jars — often have simple incised decoration and burnished finishes.</p>
+        <div class="meta">
+          <span class="pill">Finish: Burnished or slip-painted</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 4: Textiles & Blankets -->
+    <article class="card">
+      <img class="media" src="IMG-20250929-WA0037.jpg" alt="Bright Basotho blanket draped over a wooden chair">
+      <div class="content">
+        <div class="kicker">Fabrics</div>
+        <h2 class="title">Basotho Blankets & Weaving</h2>
+        <p class="desc">The famous Basotho blanket is both practical against mountain cold and highly symbolic. Contemporary makers blend traditional motifs with modern textile techniques.</p>
+        <div class="meta">
+          <span class="pill">Use: Warmth & Symbolism</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 5: Leatherwork -->
+    <article class="card">
+      <img class="media" src="baskets.jpg" alt="Hand-stitched leather item in progress">
+      <div class="content">
+        <div class="kicker">Basket Weaving</div>
+        <h2 class="title">Baskets</h2>
+        <p class="desc">Skilled baskets weaving produce-baskets  in which a strong natural fiber is commonly used.</p>
+        <div class="meta">
+          <span class="pill">Durability: Built to last</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 6: Woodcarving -->
+    <article class="card">
+      <img class="media" src="woodcarving.jpg" alt="Detailed woodcarving of traditional pattern">
+      <div class="content">
+        <div class="kicker">Woodcarving</div>
+        <h2 class="title">Functional & Decorative Carving</h2>
+        <p class="desc">From utensils to carved ceremonial objects, woodworking traditions include geometric patterns and stylized forms rooted in local symbolism.</p>
+        <div class="meta">
+          <span class="pill">Tools: Adzes, knives, rasps</span>
+        </div>
+      </article>
+
+  </section>
+
+  <footer>
+    <small>© <time datetime="2025-09-24">2025</time> Basotho Crafts Archive — page created for a digital cultural showcase.</small>
+    <div class="tags"><a href="#resources">Resources</a></div>
+  </footer>
+</section>
+
+<aside id="resources" class="side-panel" aria-labelledby="resources-title">
+  <div class="resources">
+    <h3 id="resources-title">Further reading & links</h3>
+    <a href="https://en.wikipedia.org/wiki/Basotho_blanket" target="_blank" rel="noopener">Basotho blanket — history & symbolism (Wikipedia)</a>
+    <a href="https://en.wikipedia.org/wiki/Basketry" target="_blank" rel="noopener">Basketry techniques & materials (Wikipedia)</a>
+    <a href="https://en.wikipedia.org/wiki/Beadwork" target="_blank" rel="noopener">Beadwork traditions (Wikipedia)</a>
+    <a href="https://www.unesco.org/" target="_blank" rel="noopener">UNESCO: Intangible Cultural Heritage resources</a>
+    <h4 style="margin-top:.75rem">Tips for editors</h4>
+    <ul>
+      <li>Replace placeholder images with high-resolution photos (use <code>srcset</code> for responsive images).</li>
+      <li>Add photographer credit under each card if you publish commercially.</li>
+      <li>Consider adding a "Meet the Maker" modal linking to local artisans' profiles.</li>
+    </ul>
+  </div>
+</aside>
+
+  </main>
+</body>
+</html>
