@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    margin: 10px;
+    width: calc(33.33%-20px);
+    background-color: blueviolet;
+     border: 1px solid #ffffff;
+}
+
+.item img{
+    width: 60%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.item h2{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
